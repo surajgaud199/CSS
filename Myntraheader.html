@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            background-color: cyan;
+            height: 2000px;
+        }
+        header{
+            background-color: white;
+            padding: 4px 0;
+            position:fixed; 
+            width: 100%;
+        }
+        .conteiner{
+            width: 1200px;
+            margin: 0 auto;
+            /* width: 100%; */
+        }
+        nav{
+            padding: 1px;
+            border: solid 0px;
+        }
+        .navbar{
+            justify-content: space-between;
+            display: flex;
+            align-items: center;
+        }
+        ul li{
+            display: inline-block;
+            margin: 5px 10px 0;
+        }
+        .icon i{
+            font-size: 25px;
+            color: black;
+        }
+        .search{
+            width: 330px;
+            border: 1px solid wheat;
+            padding: 8px;
+            border-color: 30px;
+        }
+        input{
+            background: white;
+            border: 0px;
+            outline: 0px;
+            width: 300px;
+        }
+    </style>
+
+</head>
+<body>
+    <section>
+        <header> 
+            <div class="conteiner">
+            <nav class="navbar">
+                <div>
+                    <h1><img src="./Myntra logo.png" alt=""></h1>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">WOMWN</a></li>
+                        <li><a href="#">KIDS</a></li>
+                        <li><a href="#">HOME & LIVING</a></li>
+                        <li><a href="#">BEAUTY</a></li>
+                        <li><a href="#">STUDIO<sup>NEW</sup></a></li>
+                    </ul>
+                </div>
+                 
+               <div class="search">
+                <input type="text" placeholder="search for products brands and more">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+               </div>
+                
+                <div class="icon">
+                    <i class="fa-solid fa-user"></i>
+                    <h6>profile</h6>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-heart"></i>
+                    <h6>wishlist</h6>
+                </div>
+                <div class="icon">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <h6>Bag</h6>
+                </div>
+            </nav>
+            </div>
+        </header>
+    </section>
+</body>
+</html>
