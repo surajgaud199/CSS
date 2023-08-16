@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .conteiner{
+            border: 2px solid black;
+            background-color: aqua;
+            display: flex;
+            flex-direction: row;
+            width: 450px;
+            padding: 2px;
+            margin: 10px;
+        }
+         
+        #boxleft{
+            background-color: bisque;
+            border: solid 2px blue;
+            width:100px;
+            margin: 3px;
+            padding: 2px;
+            display: flex;
+            flex-direction: column;
+        }
+        #boxreght{
+            background-color: teal;
+            border: solid 2px brown;
+            width: 50px;
+            margin: 3px;
+            padding: 2px;
+        }
+        p{
+            border: solid 1px yellowgreen;
+        }
+        img{
+            height: 200px;
+            width: 300px;
+        }
+        @media(max-width:768px){
+            .conteiner{
+             flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div id="boxleft">
+            <p>Lorem ipsum dolor sit amet.</p> 
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>  
+        
+        <div id="boxright">
+            <img src="./istockphoto-1316972212-612x612.jpg" alt="">
+        </div>
+    </div>
+    
+        
+</body>
+</html>
